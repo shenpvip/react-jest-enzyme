@@ -1,0 +1,22 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "semicolon": [true, "never"],
+    "indent": [true, "spaces", 2],
+    "quotemark": [true, "single", "jsx-double"],
+    "variable-name": [false],
+    "jsx-no-lambda": [false],
+    "no-this-assignment": [false],
+    "import-name": [false],
+    "no-console": [false],
+    "ordered-imports": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
